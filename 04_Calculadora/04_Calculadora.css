@@ -12,13 +12,13 @@ body{
 }
 
 .Calculadora{
-    width: 700%;
-    height: 600px;
+    width: 400px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
     display: block;
     background-color: rgb(83, 83, 83);
-    margin-top: 100px;
     border-radius: 10px;
-    margin-left: -290%;
 }
 .resultado{
     height: 75px;
@@ -32,7 +32,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4, .1fr);
     grid-gap: 1px;
-    width: 245%;
+    width: 950px;
     margin-left: 2%;
     height: 80%;
     border-radius: 10px;
@@ -46,11 +46,12 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 95%;
     color: #fff;
     margin-bottom: 10%;
     border: none;
-    border-radius: 55px;
+    margin-left: 5px;
+    border-radius: 5px;
 }
 
 .bg-roxo{
